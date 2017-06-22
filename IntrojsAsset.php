@@ -1,13 +1,9 @@
 <?php
 
-namespace xj\introjs;
+namespace dbfernandes\introjs;
 
 use yii\web\AssetBundle;
 
-/**
- *
- * @author xjflyttp <xjflyttp@gmail.com>
- */
 class IntrojsAsset extends AssetBundle
 {
 

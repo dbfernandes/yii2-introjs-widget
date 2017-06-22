@@ -8,7 +8,7 @@ http://usablica.github.io/intro.js/example/index.html
 ---
 ```json
 "require": {
-    "xj/yii2-introjs-widget": "~1.0"
+    "dbfernandes/yii2-introjs-widget": "~1.0"
 },
 ```
 
@@ -16,11 +16,13 @@ Assets
 ---
 ```php
 //Base Assets
-xj\introjs\IntrojsAsset::register($this);
+dbfernandes\introjs\IntrojsAsset::register($this);
 
 //Themes Assets
-xj\introjs\themes\DarkAsset::register($this);
-xj\introjs\themes\NassimAsset::register($this);
-xj\introjs\themes\NazaninAsset::register($this);
-xj\introjs\themes\RoyalAsset::register($this);
+dbfernandes\introjs\themes\DarkAsset::register($this);
+dbfernandes\introjs\themes\NassimAsset::register($this);
+dbfernandes\introjs\themes\NazaninAsset::register($this);
+dbfernandes\introjs\themes\RoyalAsset::register($this);
+dbfernandes\introjs\themes\FlattenerAsset::register($this);
+dbfernandes\introjs\themes\ModernAsset::register($this);
 ```

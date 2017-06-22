@@ -1,21 +1,21 @@
 {
-    "name": "xj/yii2-introjs-widget",
+    "name": "dbfernandes/yii2-introjs-widget",
     "description": "yii2-introjs-widget",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "xjflyttp",
-            "email": "xjflyttp@gmail.com"
+            "name": "David Fernandes",
+            "email": "dbfernandes@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "bower-asset/intro.js": "~1.0.0"
+        "bower-asset/intro.js": "*"
     },
     "autoload": {
         "psr-4": {
-            "xj\\introjs\\": ""
+            "dbfernandes\\introjs\\": ""
         }
     }
 }
